@@ -3,8 +3,7 @@ package ru.netology.data;
 import com.github.javafaker.Faker;
 import lombok.NoArgsConstructor;
 import lombok.Value;
-
-import page.DashboardPage;
+import ru.netology.page.DashboardPage;
 
 @NoArgsConstructor
 
