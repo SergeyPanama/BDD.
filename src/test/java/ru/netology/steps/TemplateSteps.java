@@ -1,13 +1,13 @@
 package ru.netology.steps;
 
-import data.DataHelper;
 import lombok.val;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
-import page.CardsPage;
-import page.DashboardPage;
-import page.LoginPage;
-import page.TransferPage;
+import ru.netology.data.DataHelper;
+import ru.netology.page.CardsPage;
+import ru.netology.page.DashboardPage;
+import ru.netology.page.LoginPage;
+import ru.netology.page.TransferPage;
 
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
@@ -15,6 +15,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static com.codeborne.selenide.Selenide.open;
 
 public class TemplateSteps {
+    
     @Test
     void shouldTransferMoneyBetweenOwnCards() {
         open("http://localhost:7777");
